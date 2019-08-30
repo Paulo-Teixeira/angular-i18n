@@ -1,0 +1,9 @@
+<header class="site-header">
+  <h1 class="site-header__title">Hello World of internationalization</h1>
+  <div class="language-select">
+    <label class="language-select__label" for="lang-select">Chose your language: </label>
+    <select class="language-select__list" id="lang-select">
+      <option *ngFor="let lang of langs" [value]="lang" class="language-select__option">{{lang}}</option>
+    </select>
+  </div>
+</header>
