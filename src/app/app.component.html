@@ -1,12 +1,4 @@
-<header class="site-header">
-  <h1 class="site-header__title">{{ 'HOME.TITLE' | translate}}</h1>
-  <div class="language-select">
-    <label class="language-select__label" for="lang-select">{{ 'HOME.SELECT' | translate}} </label>
-    <select class="language-select__list" id="lang-select" #langSelect (change)="translate.use(langSelect.value)">
-      <option class="language-select__option" *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{lang}}</option>
-    </select>
-  </div>
-</header>
+
 
 <main>
   <app-toolbar></app-toolbar>
