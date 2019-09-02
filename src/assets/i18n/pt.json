@@ -2,5 +2,8 @@
   "HOME": {
     "TITLE": "Olá Mundo da Internacionalização",
     "SELECT": "Escolhe a tua língua:"
+  },
+  "TOOLBAR": {
+    "TITLE": "Toolbar funcional"
   }
 }

@@ -2,5 +2,8 @@
   "HOME": {
     "TITLE": "Hello World of internationalization",
     "SELECT": "Choose your language:"
+  },
+  "TOOLBAR": {
+    "TITLE": "Toolbar works"
   }
 }
