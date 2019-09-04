@@ -3,7 +3,11 @@
     "TITLE": "Olá Mundo da Internacionalização",
     "SELECT": "Escolhe a tua língua:"
   },
-  "TOOLBAR": {
-    "TITLE": "Toolbar funcional"
+  "NAVIGATION": {
+    "HOME": "Página Inicial",
+    "BUTTON": "Componente preguiçoso"
+  },
+  "LAZY": {
+    "TITLE": "Sou um componente preguiçoso 🔮"
   }
 }

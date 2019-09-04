@@ -3,7 +3,11 @@
     "TITLE": "Salut le Monde de l'internationalisation",
     "SELECT": "Choisis ta langue:"
   },
-  "TOOLBAR": {
-    "TITLE": "Toolbar marche"
+  "NAVIGATION": {
+    "HOME": "Accueil",
+    "BUTTON": "Composant flemard"
+  },
+  "LAZY": {
+    "TITLE": "Je suis un composant flemard 🔮"
   }
 }
