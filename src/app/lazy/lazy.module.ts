@@ -2,13 +2,21 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LazyRoutingModule } from './lazy-routing.module';
+import { AsyncComponent } from './async/async.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    AsyncComponent
+  ],
   imports: [
     CommonModule,
-    LazyRoutingModule
+    LazyRoutingModule,
+    TranslateModule.forChild()
+  ],
+  exports: [
+    AsyncComponent
   ]
 })
 export class LazyModule { }
