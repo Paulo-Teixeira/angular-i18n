@@ -14,9 +14,6 @@ import { TranslateModule } from '@ngx-translate/core';
     CommonModule,
     LazyRoutingModule,
     TranslateModule.forChild()
-  ],
-  exports: [
-    AsyncComponent
   ]
 })
 export class LazyModule { }
