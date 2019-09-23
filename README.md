@@ -1,6 +1,6 @@
 # AngularI18n
 
-Testing the implementation of the ngx-translate library with lazy loaded components and a shared module.
+Tests the implementation of the ngx-translate library within a lazy loaded component and a shared module.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
